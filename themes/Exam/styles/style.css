@@ -1,0 +1,308 @@
+/*----------------------------------------------------------------------------------//
+//------------------------------RESET DEFAULT STYLES--------------------------------//
+//----------------------------------------------------------------------------------*/
+html, body {
+  width: 100%;
+  height: 100%;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  font: 16px Calibri, arial, Tahoma, sans-serif;
+  color: #000;
+}
+
+div, p, a, span, em, strong, img, h1, h2, h3, h4, h5, h6, ul, ol, li, dl, dt, dd, table, td, tr, form, fieldset, label, select, checkbox, input, textarea {
+  padding: 0;
+  margin: 0;
+  outline: none;
+  list-style: none;
+}
+
+select, input, textarea {
+  font-size: 16px;
+  vertical-align: middle;
+}
+
+textarea {
+  vertical-align: top;
+}
+
+:focus {
+  outline: none;
+}
+
+input[type=submit] {
+  cursor: pointer;
+}
+
+img, fieldset {
+  border: 0;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+a:link, a:visited {
+  font: 16px Calibri, Tahoma, sans-serif;
+  color: #000;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+@font-face {
+  font-family: code;
+  src: url("../fonts/CODE_Light.eot");
+  src: url("../fonts/CODE_Light.ttf");
+  src: url("../fonts/CODE_Light.woff");
+  src: url("../fonts/code_light-webfont.woff2");
+}
+@font-face {
+  font-family: centery-gothic;
+  src: url("../fonts/Century_Gothic.ttf");
+}
+body {
+  max-width: 1633px;
+  margin: 0 auto;
+  background-color: #f6f6f6;
+}
+
+header .wrapp-menu {
+  overflow: hidden;
+}
+header .wrapp-menu h1 {
+  width: 116px;
+  height: 116px;
+  overflow: hidden;
+  float: left;
+  margin: 20px 0 20px 120px;
+}
+header .wrapp-menu ul.nav {
+  float: right;
+  text-align: center;
+  margin: 49px 120px 40px 0;
+}
+header .wrapp-menu ul.nav li {
+  display: inline-block;
+  padding: 27px 10px;
+  margin: 0 31px;
+}
+header .wrapp-menu ul.nav li a {
+  font-family: Code;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 32px;
+  letter-spacing: 1px;
+}
+header .wrapp-menu ul.nav li.current-menu-item {
+  background-color: #ffeb00;
+}
+header .wrapp-item {
+  background: url("../images/slider_bg.png") 100% 100% no-repeat;
+  overflow: hidden;
+}
+header .wrapp-item h2 {
+  font-family: centery-gothic;
+  font-size: 35px;
+  font-weight: 400;
+  line-height: 21px;
+  text-transform: uppercase;
+  color: #ffea00;
+  padding: 22px 201px 22px 22px;
+  background-color: #403f44;
+  width: 320px;
+  margin: 40px auto 40px 119px;
+}
+
+main {
+  width: 1160px;
+  float: left;
+}
+main .content {
+  max-width: 1130px;
+  margin: 78px auto;
+}
+main .list {
+  overflow: hidden;
+  width: 100%;
+}
+main .list .item {
+  width: 550px;
+  height: 586px;
+  float: left;
+  margin: 0 8px 38px 7px;
+  background-color: #ffea00;
+}
+main .list .item a {
+  color: black;
+  font-family: CenturyGothic;
+  font-size: 23px;
+  font-weight: 400;
+  line-height: 30px;
+  text-transform: uppercase;
+}
+main .list .item p {
+  color: #5e5e5e;
+  font-family: CenturyGothic;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  text-align: left !important;
+}
+main .list .item .descr {
+  text-align: right;
+  vertical-align: bottom;
+}
+main .list .item .descr .commentss a, main .list .item .descr .authorr, main .list .item .descr .datee {
+  color: black;
+  font-family: CenturyGothic;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 20px;
+}
+main p, main .descr {
+  margin: 0 25px;
+}
+main .list .item img {
+  width: 550px;
+  height: 400px;
+  display: block;
+  margin-bottom: 3%;
+}
+main .list .item p {
+  margin-top: 1em;
+  text-align: center;
+}
+
+aside {
+  width: 473px;
+  overflow: hidden;
+  float: right;
+  padding: 78px 0;
+}
+aside .widget {
+  max-width: 473px;
+  margin-bottom: 30px;
+  background-color: #403f46;
+  overflow: hidden;
+}
+aside .widget form.search-form {
+  text-align: center;
+  padding: 21px 53px;
+  position: relative;
+}
+aside .widget form.search-form label {
+  display: none;
+}
+aside .widget form.search-form input.search-field {
+  border-radius: 15px;
+  background-color: #f6f6f6;
+  max-width: 366px;
+  width: 100%;
+  padding-left: 10px;
+}
+aside .widget form.search-form input[type="submit"] {
+  color: transparent;
+  position: absolute;
+  right: 18%;
+  top: 35%;
+  border: none;
+  background: transparent url("../images/search-icon.png") no-repeat center right;
+}
+aside .widget h3 {
+  color: #ffea00;
+  font-family: CenturyGothic;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 21px;
+  text-transform: uppercase;
+  margin: 35px auto 85px 35px;
+}
+aside .widget ul {
+  margin: 35px 35px 85px 35px;
+  overflow: hidden;
+  text-align: left;
+}
+aside .widget ul li {
+  background: url("../images/arrow.jpg") left center no-repeat;
+  padding-left: 45px;
+  margin-bottom: 15px;
+  width: 169px;
+  display: inline-block;
+  color: #FFF;
+  vertical-align: top;
+}
+aside .widget ul li a {
+  color: white;
+  font-family: CenturyGothic;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 21px;
+  text-transform: uppercase;
+}
+aside .widget ul.wpp-list li {
+  display: block;
+  width: 100%;
+  background: none;
+  padding: 0;
+  overflow: hidden;
+  margin-bottom: 25px;
+}
+aside .widget ul.wpp-list li img {
+  width: 100px;
+  height: 70px;
+}
+aside .widget ul.wpp-list li a.wpp-post-title {
+  font-family: CenturyGothic;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20px;
+  text-transform: uppercase;
+}
+aside .widget ul.wpp-list li .wpp-excerpt {
+  display: none;
+}
+aside .widget ul.wpp-list li .post-stats {
+  color: #ffea00;
+  font-family: CenturyGothic;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 20px;
+  text-align: right;
+}
+aside .widget .tagcloud {
+  margin: 35px auto 85px 35px;
+  overflow: hidden;
+}
+aside .widget .tagcloud a {
+  color: #424147;
+  font-family: CenturyGothic;
+  background-color: #ffea00;
+  font-size: 16px !important;
+  padding: 6px 9px;
+  margin: 3px;
+  font-weight: 400;
+  line-height: 20px;
+  text-transform: uppercase;
+  width: auto;
+  display: inline-block;
+}
+
+footer {
+  clear: both;
+  overflow: hidden;
+}
